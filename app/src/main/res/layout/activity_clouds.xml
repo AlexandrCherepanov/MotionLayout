@@ -38,6 +38,55 @@
             app:layout_constraintVertical_bias="0.981"
             app:srcCompat="@drawable/cloud_1" />
 
+        <ImageView
+            android:id="@+id/cloud2"
+            android:layout_width="86dp"
+            android:layout_height="69dp"
+            android:src="@drawable/cloud_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.93" />
+
+        <ImageView
+            android:id="@+id/cloud3"
+            android:layout_width="86dp"
+            android:layout_height="69dp"
+            android:src="@drawable/cloud_3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/cloud4"
+            android:layout_width="86dp"
+            android:layout_height="69dp"
+            android:src="@drawable/cloud_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.62" />
+
+        <ImageView
+            android:id="@+id/cloud5"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:src="@drawable/cloud_4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.341"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.446" />
+
+
     </androidx.constraintlayout.motion.widget.MotionLayout>
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
