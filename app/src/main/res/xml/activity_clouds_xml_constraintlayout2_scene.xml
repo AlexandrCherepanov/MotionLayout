@@ -86,9 +86,9 @@
                motion:framePosition="100"
                android:alpha="0" />
            <KeyAttribute
-               motion:motionTarget="@+id/cloud5"
-               motion:framePosition="0"
-               android:alpha="0" />
+           motion:motionTarget="@+id/cloud5"
+           motion:framePosition="0"
+           android:alpha="0" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud5"
                motion:framePosition="10"
@@ -103,6 +103,61 @@
                android:alpha="0.8" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud5"
+               motion:framePosition="100"
+               android:alpha="0" />
+
+           <KeyAttribute
+           motion:motionTarget="@+id/cloud_red1"
+           motion:framePosition="0"
+           android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red1"
+               motion:framePosition="10"
+               android:alpha="0.8" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red1"
+               motion:framePosition="50"
+               android:alpha="0.4" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red1"
+               motion:framePosition="90"
+               android:alpha="0.8" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red1"
+               motion:framePosition="100"
+               android:alpha="0" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red2"
+               motion:framePosition="0"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red2"
+               motion:framePosition="50"
+               android:alpha="0.4" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red2"
+               motion:framePosition="90"
+               android:alpha="0.8" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red2"
+               motion:framePosition="100"
+               android:alpha="0" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red3"
+               motion:framePosition="0"
+               android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red3"
+               motion:framePosition="50"
+               android:alpha="0.8" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red3"
+               motion:framePosition="90"
+               android:alpha="0.4" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red3"
                motion:framePosition="100"
                android:alpha="0" />
        </KeyFrameSet>
@@ -153,6 +208,26 @@
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintVertical_bias="0.446"
             motion:layout_constraintHorizontal_bias="0.341"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/cloud_red2"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="30dp"
+            android:layout_height="19dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.307"
+            motion:layout_constraintHorizontal_bias="0.221"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/cloud_red3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="30dp"
+            android:layout_height="19dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.201"
+            motion:layout_constraintHorizontal_bias="0.071"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent" />
     </ConstraintSet>
@@ -219,5 +294,36 @@
             motion:layout_constraintEnd_toEndOf="parent"
             android:layout_width="70dp"
             android:id="@+id/cloud5" />
+        <Constraint
+            motion:layout_constraintVertical_bias="0.329"
+            android:layout_height="50dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.227"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="67dp"
+            android:id="@+id/cloud_red1"
+            motion:layout_editor_absoluteY="48dp" />
+        <Constraint
+            motion:layout_constraintVertical_bias="0.245"
+            android:layout_height="19dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.413"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="30dp"
+            android:id="@+id/cloud_red2" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="30dp"
+            android:layout_height="19dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.201"
+            motion:layout_constraintHorizontal_bias="0.342"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/cloud_red3" />
     </ConstraintSet>
 </MotionScene>
