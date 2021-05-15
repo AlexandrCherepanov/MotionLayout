@@ -15,7 +15,7 @@
                android:alpha="0" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud1"
-               motion:framePosition="10"
+               motion:framePosition="5"
                android:alpha="0.7" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud1"
@@ -35,7 +35,7 @@
                android:alpha="0" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud2"
-               motion:framePosition="10"
+               motion:framePosition="5"
                android:alpha="0.9" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud2"
@@ -91,7 +91,7 @@
            android:alpha="0" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud5"
-               motion:framePosition="10"
+               motion:framePosition="5"
                android:alpha="0.8" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud5"
@@ -112,7 +112,7 @@
            android:alpha="0" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud_red1"
-               motion:framePosition="10"
+               motion:framePosition="5"
                android:alpha="0.8" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud_red1"
@@ -131,6 +131,10 @@
                motion:motionTarget="@+id/cloud_red2"
                motion:framePosition="0"
                android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red2"
+               motion:framePosition="5"
+               android:alpha="0.8" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud_red2"
                motion:framePosition="50"
@@ -148,6 +152,10 @@
                motion:motionTarget="@+id/cloud_red3"
                motion:framePosition="0"
                android:alpha="0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/cloud_red3"
+               motion:framePosition="5"
+               android:alpha="0.4" />
            <KeyAttribute
                motion:motionTarget="@+id/cloud_red3"
                motion:framePosition="50"
@@ -166,7 +174,7 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
-        motion:duration="10000"
+        motion:duration="20000"
         motion:autoTransition="jumpToStart"/>
 
     <ConstraintSet android:id="@+id/start">

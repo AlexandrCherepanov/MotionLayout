@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_clouds.setOnClickListener { startActivity(Intent(this, CloudsActivity::class.java)) }
+        btn_gates.setOnClickListener { startActivity(Intent(this, GatesActivity::class.java)) }
     }
 }
