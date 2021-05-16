@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         btn_clouds.setOnClickListener { startActivity(Intent(this, CloudsActivity::class.java)) }
         btn_gates.setOnClickListener { startActivity(Intent(this, GatesActivity::class.java)) }
+        btn_tower.setOnClickListener { startActivity(Intent(this, TowerActivity::class.java)) }
     }
 }
