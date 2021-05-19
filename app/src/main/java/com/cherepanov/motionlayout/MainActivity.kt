@@ -15,5 +15,7 @@ class MainActivity : AppCompatActivity() {
         btn_tower.setOnClickListener { startActivity(Intent(this, TowerActivity::class.java)) }
 
         btn_exam1.setOnClickListener { startActivity(Intent(this, MotionPagerActivity::class.java)) }
+        btn_exam2.setOnClickListener { startActivity(Intent(this, CollapseToolbarActivity::class.java)) }
+        btn_exam3.setOnClickListener { startActivity(Intent(this, CollapseToolbarActivityText::class.java)) }
     }
 }
