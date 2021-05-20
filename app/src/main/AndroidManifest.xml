@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CollapseToolbarActivityText"></activity>
+        <activity android:name=".YouTubeActivity"></activity>
+        <activity android:name=".MiActivity" />
+        <activity android:name=".VanGoghActivity" />
+        <activity android:name=".CollapseToolbarActivityText" />
         <activity android:name=".CollapseToolbarActivity" />
         <activity android:name=".MotionPagerActivity" />
         <activity android:name=".TowerActivity" />

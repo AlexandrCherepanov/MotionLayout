@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/example1"
         app:layout_constraintEnd_toStartOf="@+id/btn_exam2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -58,7 +58,7 @@
         android:id="@+id/btn_exam2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/example2"
         app:layout_constraintEnd_toStartOf="@+id/btn_exam3"
         app:layout_constraintHorizontal_bias="0.5"
@@ -69,13 +69,44 @@
         android:id="@+id/btn_exam3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="@string/example3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_exam2"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_exam4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/example4"
+        app:layout_constraintEnd_toEndOf="@+id/btn_exam1"
+        app:layout_constraintStart_toStartOf="@+id/btn_exam1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_exam1" />
+
+    <Button
+        android:id="@+id/btn_exam5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/example5"
+        app:layout_constraintEnd_toEndOf="@+id/btn_exam2"
+        app:layout_constraintStart_toStartOf="@+id/btn_exam2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_exam2" />
+
+    <Button
+        android:id="@+id/btn_exam6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/example6"
+        app:layout_constraintEnd_toEndOf="@+id/btn_exam3"
+        app:layout_constraintStart_toStartOf="@+id/btn_exam3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_exam3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

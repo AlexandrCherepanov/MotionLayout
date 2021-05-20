@@ -17,5 +17,8 @@ class MainActivity : AppCompatActivity() {
         btn_exam1.setOnClickListener { startActivity(Intent(this, MotionPagerActivity::class.java)) }
         btn_exam2.setOnClickListener { startActivity(Intent(this, CollapseToolbarActivity::class.java)) }
         btn_exam3.setOnClickListener { startActivity(Intent(this, CollapseToolbarActivityText::class.java)) }
+        btn_exam4.setOnClickListener { startActivity(Intent(this, VanGoghActivity::class.java)) }
+        btn_exam5.setOnClickListener { startActivity(Intent(this, MiActivity::class.java)) }
+        btn_exam6.setOnClickListener { startActivity(Intent(this, YouTubeActivity::class.java))}
     }
 }
